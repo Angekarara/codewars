@@ -16,3 +16,4 @@ function growingPlant(upSpeed, downSpeed, desiredHeight) {
   return days;
 }
 console.log(growingPlant(5, 2, 10));
+console.log(growingPlant(9, 6, 19));
