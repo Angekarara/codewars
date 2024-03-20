@@ -17,3 +17,4 @@ function growingPlant(upSpeed, downSpeed, desiredHeight) {
 }
 console.log(growingPlant(5, 2, 10));
 console.log(growingPlant(9, 6, 19));
+console.log(growingPlant(10, 7, 30));
