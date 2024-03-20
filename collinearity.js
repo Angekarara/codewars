@@ -4,3 +4,4 @@ function collinearity(x1, y1, x2, y2) {
 console.log(collinearity(4, 2, 9, 1));
 console.log(collinearity(1, 2, -1, -2));
 console.log(collinearity(4, 0, 2, 8));
+console.log(collinearity(4, 3, -8, -6));
