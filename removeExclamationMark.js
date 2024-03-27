@@ -8,3 +8,5 @@ function removeExclamationMarks(s) {
   }
   return results;
 }
+console.log(removeExclamationMarks("Hello World!"));
+console.log(removeExclamationMarks("Hello! , World!"));
