@@ -16,7 +16,6 @@ function findSmallestM(x) {
     return number / x;
 }
 
-// Examples
-console.log(findSmallestM(11)); // Output: 9
-console.log(findSmallestM(12)); // Output: -1
-console.log(findSmallestM(13)); // Output: 76923
+console.log(findSmallestM(11)); //  9
+console.log(findSmallestM(12)); //  -1
+console.log(findSmallestM(13)); // 76923
