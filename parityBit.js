@@ -12,3 +12,6 @@ function checkParity(parity, bin){
     }
     return results 
   }
+  console.log(checkParity('even', 01010))
+  console.log(checkParity('even', 010110))
+  console.log(checkParity('odd', 01010))
