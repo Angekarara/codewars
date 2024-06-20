@@ -8,10 +8,10 @@ const target = function (n) {
      }
    const evenOrOdd = new Proxy(target, handler)
 
-console.log(evenOrOddProxy(2)); // 'Even'
-console.log(evenOrOddProxy[2]); // 'Even'
-console.log(evenOrOddProxy(7)); // 'Odd'
-console.log(evenOrOddProxy[7]); // 'Odd'
-console.log(evenOrOddProxy(-44)); // 'Even'
-console.log(evenOrOddProxy(-9)); // 'Odd'
-console.log(evenOrOddProxy[-9]); // 'Odd'
+console.log(evenOrOdd(2)); // 'Even'
+console.log(evenOrOdd[2]); // 'Even'
+console.log(evenOrOdd(7)); // 'Odd'
+console.log(evenOrOdd[7]); // 'Odd'
+console.log(evenOrOdd(-44)); // 'Even'
+console.log(evenOrOdd(-9)); // 'Odd'
+console.log(evenOrOdd[-9]); // 'Odd'
