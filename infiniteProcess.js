@@ -7,3 +7,7 @@ function isInfiniteProcess(a, b) {
      }
      return false
    }
+   console.log((isInfiniteProcess(2,6)))
+   console.log((isInfiniteProcess(2,3)))
+   console.log((isInfiniteProcess(2,10)))
+   console.log((isInfiniteProcess(0,1)))
