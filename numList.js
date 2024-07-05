@@ -18,3 +18,4 @@ function sumNoDuplicates(numList) {
 
 console.log(sumNoDuplicates([3, 4, 3, 6])); // Output: 10
 console.log(sumNoDuplicates([1, 10, 3, 10, 10])); // Output: 4
+console.log(sumNoDuplicates([3, 4, 3, 6, 4, 9])); // Output: 15
