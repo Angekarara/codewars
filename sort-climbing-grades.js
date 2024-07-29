@@ -27,3 +27,6 @@ function sortGrades(lst) {
   }
   return lst.sort((a, b) => orderMap[a] - orderMap[b]);
 }
+console.log(sortGrades(["V7", "V12", "V1"]));
+console.log(sortGrades(["V13", "V14", "VB", "V0"]));
+console.log(sortGrades(["V0+", "V0", "V16", "V2", "VB", "V6"]));
