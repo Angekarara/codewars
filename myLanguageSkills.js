@@ -9,3 +9,6 @@ function myLanguages(results) {
   }
   return arr;
 }
+console.log(myLanguages({ Java: 10, Ruby: 80, Python: 65 }));
+console.log(myLanguages({ Hindi: 60, Dutch: 93, Greek: 71 }));
+console.log(myLanguages({ "C++": 50, ASM: 10, Haskell: 20 }));
