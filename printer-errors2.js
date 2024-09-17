@@ -12,5 +12,4 @@ function printerErrors2(s) {
   }
   return count
 }
-console.log(printerErrors2("aaaxbbbbyyhwawiwjjjwwm"));
-console.log(printerErrors2("gkopipytewwazxcvbnm"))
+
