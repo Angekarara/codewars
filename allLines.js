@@ -1,8 +1,5 @@
 function findSmallestM(x) {
-    if (x % 2 === 0) {
-        return -1;
-    }
-
+    if (x % 2 === 0) return -1;
     let number = 9;
     let count = 1;
     let remainder = number % x;
@@ -15,7 +12,3 @@ function findSmallestM(x) {
 
     return number / x;
 }
-
-console.log(findSmallestM(11)); //  9
-console.log(findSmallestM(12)); //  -1
-console.log(findSmallestM(13)); // 76923
