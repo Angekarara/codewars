@@ -16,4 +16,3 @@ function removeDuplicatess(arrays) {
   }
   return array2;
 }
-console.log(removeDuplicatess([1, 1, 2, 2, 3, 3]));
