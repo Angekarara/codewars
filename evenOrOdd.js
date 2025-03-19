@@ -8,10 +8,3 @@ const target = function (n) {
      }
    const evenOrOdd = new Proxy(target, handler)
 
-console.log(evenOrOdd(2)); // 'Even'
-console.log(evenOrOdd[2]); // 'Even'
-console.log(evenOrOdd(7)); // 'Odd'
-console.log(evenOrOdd[7]); // 'Odd'
-console.log(evenOrOdd(-44)); // 'Even'
-console.log(evenOrOdd(-9)); // 'Odd'
-console.log(evenOrOdd[-9]); // 'Odd'
