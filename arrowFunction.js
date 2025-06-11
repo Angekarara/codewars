@@ -11,13 +11,5 @@ const names = [
 ];
 
 const longNames = names.filter((name) => name.length > 6);
-
-console.log(longNames);
-
 const upper = names.map((name) => name.toUpperCase());
-
-console.log(upper);
-
 const splits = names.map((name) => name.split("").reverse("").join(""));
-
-console.log(splits);
