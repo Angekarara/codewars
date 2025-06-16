@@ -5,5 +5,3 @@ function findNextSquare(sq) {
   }
   return -1;
 }
-console.log(findNextSquare(144));
-console.log(findNextSquare(114));
