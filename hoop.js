@@ -4,6 +4,3 @@ function hoopCount(n) {
     : "Keep at it until you get it";
 }
 
-console.log(hoopCount(19));
-
-console.log(hoopCount(9));
