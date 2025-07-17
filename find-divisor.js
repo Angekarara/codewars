@@ -9,6 +9,3 @@ function divisors(integer) {
   }
   return arr.length ? arr : `${integer} is prime`;
 }
-console.log(divisors(15));
-console.log(divisors(13));
-console.log(divisors(12));
