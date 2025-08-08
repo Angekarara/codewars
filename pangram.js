@@ -4,6 +4,4 @@ function isPangram(string){
    const results = arr.every(char => sentence.includes(char));
     return results;
   }
-  console.log(isPangram("The quick brown fox jumps over the lazy dog"))
-  console.log(isPangram("This person is six years old"))
   
