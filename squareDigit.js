@@ -3,5 +3,3 @@ function squareDigits(num){
    const arr2 = arr.map( n => n*n)
     return Number(arr2.join(''));
   }
-  console.log(squareDigits(2537))
-  console.log(squareDigits(9119))
