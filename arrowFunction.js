@@ -1,4 +1,3 @@
-//example of using an arrow function
 const names = [
   "Afghanistan",
   "Aruba",
