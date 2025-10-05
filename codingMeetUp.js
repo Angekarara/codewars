@@ -31,22 +31,6 @@ console.log(
       continent: "Europe",
       age: 22,
       language: "Ruby",
-    },
-    {
-      firstName: "Jayden",
-      lastName: "P.",
-      country: "Jamaica",
-      continent: "Americas",
-      age: 18,
-      language: "JavaScript",
-    },
-    {
-      firstName: "Joao",
-      lastName: "D.",
-      country: "Portugal",
-      continent: "Europe",
-      age: 25,
-      language: "JavaScript",
-    },
+    }
   ])
 );
